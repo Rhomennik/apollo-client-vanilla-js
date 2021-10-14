@@ -2,12 +2,8 @@
 require("./keycloak");
 // import init Client Apollo Client
 const client = require("./client");
-
+// importy gql to create querys
 const { gql } = require("apollo-boost");
-
-
-// API URL 
-https://api.fidelisbet.dev/graphql
 
 // Query Leagues
 const queryLeagues = gql`
@@ -70,6 +66,7 @@ if (localStorage.getItem("token")) {
     .subscribe(
       (data) => {
         console.log("Data", data);
+        //See comment below ********
       },
       (err) => {
         console.error("Error", err);
