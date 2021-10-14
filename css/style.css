@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Center the content in the browser window */
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+button {
+  display: inline-block;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  border: 0;
+  border-radius: 0.317rem;
+  background-color: rgb(163, 121, 121);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+}
